@@ -1,0 +1,56 @@
+* { margin: 0; padding: 0; }
+
+body 
+
+.stage {
+  position: relative;
+  width: 300px;
+  height: 600px;
+  cursor: pointer;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: #000;
+  color: #fff;
+}
+
+.stage * { position: absolute; font-weight: normal; }
+
+.streepje { top: 31px; width: 16px; height: 5px; }
+.streepje1 { left: 31px; background: #8000e0; }
+.streepje2 { left: 51px; background: #5a5aa0; }
+.streepje3 { left: 71px; background: #b4b4f0; }
+
+.hallo { left: 27px; top: 45px; font-size: 62px; }
+
+.bubble {
+  left: 178px; top: 36px;
+  width: 40px; height: 40px;
+  border: 2px solid #2fe0b0;
+  border-radius: 50%;
+  color: #2fe0b0;
+  font-size: 13px;
+  text-align: center;
+  line-height: 36px;
+}
+
+.internet { left: 28px; top: 118px; font-size: 26px; }
+.simonly { left: 28px; top: 156px; font-size: 15px; }
+.sim { left: 28px; top: 204px; width: 170px; }
+.voordelen { left: 28px; top: 328px; font-size: 17px; line-height: 23px; }
+
+.cirkel {
+  left: -82px; top: 424px;
+  width: 464px; height: 464px;
+  border-radius: 50%;
+  background: #7272e0;
+}
+
+.knop {
+  left: 25px; top: 498px;
+  width: 249px; height: 70px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  font-size: 22px;
+  text-align: center;
+  line-height: 68px;
+}
